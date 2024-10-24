@@ -1,0 +1,146 @@
+.mainCalculator {
+    align-items: center;
+    justify-content: center;
+}
+
+.contentCalculator {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #191c22;
+    border-radius: 15px;
+}
+
+
+.nada {
+    height: 30px;
+}
+
+
+/* LEFT LEFT*/
+.leftLeftContent {
+    display: block;
+    border-top: 1px solid #23272f;
+    overflow: hidden;
+}
+
+.contenCal_CalculatorLeft {
+    display: grid;
+    padding: 10px;
+    gap: 10px;
+    background-color: #16181d;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.bootomEquals {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #23272f;
+    padding: 10px;
+}
+
+
+/* LEFT CENTER */
+
+.leftCalculator {
+    display: block;    
+    border-radius: 15px;
+    border: 1px solid #23272f;
+    overflow: hidden;
+}
+
+.headerCalculator {
+    background-color: #23272f;
+    padding: 10px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.tittleCalculator_H {
+    color: #5d6168;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.contenCal_Calculator {
+    display: grid;
+    padding: 10px;
+    gap: 10px;
+    background-color: #16181d;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.btnCalculator {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #191c22;
+    transition: all .4s ease;
+}
+
+.btnCalculator:hover {
+    background-color: #2a2f38;
+}
+
+.btnCalculator:active {
+    border: 1px solid #313c50;
+    background-color: #313c50;
+}
+
+.extend {
+    width: 100px;
+}
+
+/* RIGHT THING */
+.rightCalculator {
+    padding: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 15px 15px 0px;
+    overflow: hidden;
+    background: rgb(50, 48, 73);
+    background: linear-gradient(130deg, rgba(50, 48, 73, 1) 20%, rgba(28, 65, 62, 1) 100%);
+}
+
+.contenRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 180px;
+}
+
+.contenRight {
+    background-color: white;
+    border-radius: 15px;
+    color: #16181d;
+}
+
+.textContenRight {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    font-size: 15px;
+}
+
+.textIntCoso {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0px;
+}
+
+.textContenRight svg {
+    margin-top: 7px;
+}
